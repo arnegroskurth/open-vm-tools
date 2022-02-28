@@ -6,4 +6,6 @@ else
   echo "Missing password for user cloud-agent via CLOUD_AGENT_PASSWORD" > /dev/stderr
 fi
 
+vmtoolsd --version
+
 exec "$@"
