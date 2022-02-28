@@ -1,7 +1,7 @@
 
 # arnegroskurth/open-vm-tools
 
-Run [`open-vm-tools`](https://github.com/vmware/open-vm-tools) in an alpine-based container.
+[`open-vm-tools`](https://github.com/vmware/open-vm-tools) for Fedora CoreOS. See: https://github.com/coreos/fedora-coreos-tracker/issues/70
 
 The container comes with the user `cloud-agent` that can be used to authenticate with the cloud agent when using guest RPC (has to set password via `CLOUD_AGENT_PASSWORD`).
 

@@ -2,9 +2,14 @@
 
 ## [unreleased]
 
+### Changed
+
+- Switched to `registry.fedoraproject.org/fedora-minimal:34` as base image
+
 ### Added
 
 - Now printing version of `open-vm-tools` on container start
+- Added `net-tools`, `iproute` and `systemd` utilities to the container
 
 ## [0.1.0] - 2022-02-28
 
