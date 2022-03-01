@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+## [0.2.0] - 2022-03-01
+
 ### Changed
 
 - Switched to `registry.fedoraproject.org/fedora-minimal:34` as base image
