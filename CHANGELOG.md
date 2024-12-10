@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+## [1.1.0] - 2024-12-10
+
 ### Added
 
 - Can now configure `LOGGING_LEVEL` for vmtoolsd
