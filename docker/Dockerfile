@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora-minimal:34
+FROM registry.fedoraproject.org/fedora-minimal:40
 
 RUN microdnf -y --setopt=tsflags=nodocs install\
     open-vm-tools \

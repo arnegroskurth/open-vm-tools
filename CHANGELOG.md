@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+### Other
+
+- Updated base image to `registry.fedoraproject.org/fedora-minimal:40`
+
 ## [0.2.0] - 2022-03-01
 
 ### Changed
