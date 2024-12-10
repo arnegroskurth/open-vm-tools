@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+### Added
+
+- Added `less` as common utility to container RPC context
+
 ## [1.0.0] - 2024-12-10
 
 ### Other

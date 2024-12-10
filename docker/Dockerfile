@@ -4,7 +4,7 @@ RUN microdnf -y --setopt=tsflags=nodocs install\
     open-vm-tools \
     \
     # often used utilities when using guest RPC feature
-    net-tools iproute systemd \
+    net-tools iproute systemd less \
     \
     && microdnf clean all
 
