@@ -1,0 +1,3 @@
+[logging]
+vmtoolsd.level=${LOGGING_LEVEL}
+vmtoolsd.handler=std

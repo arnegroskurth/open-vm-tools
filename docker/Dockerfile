@@ -2,11 +2,15 @@ FROM registry.fedoraproject.org/fedora-minimal:40
 
 RUN microdnf -y --setopt=tsflags=nodocs install\
     open-vm-tools \
+    envsubst \
     \
     # often used utilities when using guest RPC feature
     net-tools iproute systemd less \
     \
     && microdnf clean all
+
+COPY tools.conf.dist /etc/vmware-tools/
+ENV LOGGING_LEVEL="message"
 
 # various systemctl operations have no effect if this is not set
 # see: https://systemd.io/ENVIRONMENT/
