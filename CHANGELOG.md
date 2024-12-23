@@ -2,6 +2,10 @@
 
 ## [unreleased]
 
+### Added
+
+- Activated logging for components `deployPkg`, `network`, `toolboxcmd`, `vmsvc`, `vmresset` and `vmusr`
+
 ## [1.1.0] - 2024-12-10
 
 ### Added

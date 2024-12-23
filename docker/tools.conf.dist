@@ -1,3 +1,21 @@
+
+# see: see: https://github.com/vmware/open-vm-tools/blob/master/open-vm-tools/tools.conf
+
 [logging]
+
+log=true
+
+deployPkg.level=${LOGGING_LEVEL}
+deployPkg.handler=std
+network.level=${LOGGING_LEVEL}
+network.handler=std
+toolboxcmd.level=${LOGGING_LEVEL}
+toolboxcmd.handler=std
 vmtoolsd.level=${LOGGING_LEVEL}
 vmtoolsd.handler=std
+vmsvc.level=${LOGGING_LEVEL}
+vmsvc.handler=std
+vmresset.level=${LOGGING_LEVEL}
+vmresset.handler=std
+vmusr.level=${LOGGING_LEVEL}
+vmusr.handler=std
