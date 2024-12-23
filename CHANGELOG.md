@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+## [1.2.1] - 2024-12-23
+
 ### Fixed
 
 - Fixed potential startup delay
