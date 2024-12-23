@@ -7,6 +7,7 @@ else
 fi
 
 echo "Applying configuration..." > /dev/stderr
+export STAT_LOGGING="$([ "${LOGGING_LEVEL}" == "debug" ] && echo "true" || echo "false")"
 envsubst < /etc/vmware-tools/tools.conf.dist > /etc/vmware-tools/tools.conf
 
 echo "vmtoolsd version: $(vmtoolsd --version)" > /dev/stderr

@@ -5,6 +5,7 @@
 ### Added
 
 - Activated logging for components `deployPkg`, `network`, `toolboxcmd`, `vmsvc`, `vmresset` and `vmusr`
+- Now logging guestinfo stats when `LOGGGIN_LEVEL=debug`
 
 ## [1.1.0] - 2024-12-10
 

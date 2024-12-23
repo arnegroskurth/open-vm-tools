@@ -19,3 +19,6 @@ vmresset.level=${LOGGING_LEVEL}
 vmresset.handler=std
 vmusr.level=${LOGGING_LEVEL}
 vmusr.handler=std
+
+[guestinfo]
+enable-stat-logging=${STAT_LOGGING}
