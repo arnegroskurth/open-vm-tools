@@ -17,7 +17,7 @@ ENV LOGGING_LEVEL="message"
 ENV SYSTEMD_IGNORE_CHROOT=1
 
 # used to authenticate with the cloud agent when running a command in the VM
-RUN useradd --no-create-home cloud-agent
+RUN useradd cloud-agent
 ENV CLOUD_AGENT_PASSWORD=""
 
 COPY --chmod=775 entrypoint.sh /

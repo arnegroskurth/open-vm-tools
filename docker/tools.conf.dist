@@ -21,4 +21,9 @@ vmusr.level=${LOGGING_LEVEL}
 vmusr.handler=std
 
 [guestinfo]
+
+# disabled due to suspected startup delay
+disable-perf-mon=true
+disable-query-diskinfo=true
+
 enable-stat-logging=${STAT_LOGGING}
