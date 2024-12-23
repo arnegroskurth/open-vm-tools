@@ -4,6 +4,9 @@ RUN microdnf -y --setopt=tsflags=nodocs install\
     open-vm-tools \
     envsubst \
     \
+    # prevent hangs due to low entropy
+    haveged \
+    \
     # often used utilities when using guest RPC feature
     net-tools iproute systemd less \
     \
