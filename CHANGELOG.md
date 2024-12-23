@@ -2,6 +2,8 @@
 
 ## [unreleased]
 
+## [1.2.2] - 2024-12-23
+
 ### Fixed
 
 - Next try at fixing startup delay
