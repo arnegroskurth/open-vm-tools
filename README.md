@@ -20,13 +20,16 @@ Can be used to run this image in a SystemD-environment like Fedora CoreOS.
 ```
 [Unit]
 Description=Open VM Tools
-After=network-online.target
+After=docker.service network-online.target
+Requires=docker.service
 Wants=network-online.target
 ConditionVirtualization=vmware
 
 [Service]
+Type=simple
 ExecStartPre=-docker rm -fv open-vm-tools
 ExecStart=docker run --privileged --pid=host --net=host --ipc=host --uts=host --restart always --name open-vm-tools arnegroskurth/open-vm-tools
+ExecStop=/usr/bin/docker stop open-vm-tools
 
 [Install]
 WantedBy=multi-user.target
